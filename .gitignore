@@ -1,0 +1,4 @@
+*.log
+# filename/ for ignore folder for all folders
+# /dir/ for omly outer
+newfile/
