@@ -1,0 +1,25 @@
+git 
+git init 
+git add .
+git commit -m "whatever you want to write"
+git restor -staged filename
+git checkout -- filename   -->u get before saved text 
+git rm filename --> for remove file from git tracked files by git command
+git mv filename renamefilename  --> for change file name with git command
+git log -->for see all commits
+git log -p -2 -->for see 2 commits u can replace with 2 with other digits
+touch .gitignore -->for create gitinore file
+rm -rf .git --> for untrack all files 
+git clone link --> for clone other repositorygit status  --> for checking working file is git repository or not
+git diff -->for see difference between staging file and working file
+git diff -staged 
+git log -p -->for see which lines remove
+git log --stat ->in showt we will show which commits are add or remove in repository in short summary
+git log --pretty=oneline -->we will see commit in one line
+git log --pretty=short --> we will see commit in short
+git log --pretty=full --> we will see commit in full
+git log --since=2.days -->we can see commit within 2 days also we can see in months or weeks
+git log --pretty=format:"%h -- %an" --> %h is hash commet and %an is author's name 
+git commit--amend -->we can edit previous commit
+
+
